@@ -1,8 +1,7 @@
-import React from 'react'
 import { MovieForm } from './MovieForm'
 import { MovieList } from './Movielist'
 
-export const Movie = () => {
+const Movie = () => {
   return (
     <>
     <MovieForm/>
@@ -10,3 +9,4 @@ export const Movie = () => {
     </>
   )
 }
+export default Movie

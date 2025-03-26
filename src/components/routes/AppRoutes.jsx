@@ -2,8 +2,8 @@ import { Navigate, Route, Routes } from "react-router";
 import AuthLayout from "../layout/AuthLayout";
 import LoginForm from "../auth/Login";
 import RegistrationForm from "../auth/Register";
-import { Movie } from "../../page/movie";
 import { MovieLayout } from "./MovieLayout";
+import Movie from "../../page/Movie"
 
 function AppRoutes() {
   return (
